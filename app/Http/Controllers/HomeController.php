@@ -20,7 +20,11 @@ class HomeController extends Controller
     {
         return view('eye-care');
     }
+    public function rehabilitations()
+    {
+        return view('rehabilitations');
+    }
 
 
-    // Add other methods for different pages
+
 }
