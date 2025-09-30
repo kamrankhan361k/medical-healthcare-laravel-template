@@ -25,6 +25,10 @@ class HomeController extends Controller
         return view('rehabilitations');
     }
 
+     public function physiotherapy()
+    {
+        return view('physiotherapy');
+    }
 
 
 }

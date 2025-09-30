@@ -7,4 +7,5 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/dental', [HomeController::class, 'dental'])->name('detal');
 Route::get('/eye-care', [HomeController::class, 'eyecare'])->name('eye-care');
 Route::get('/rehabilitations', [HomeController::class, 'rehabilitations'])->name('rehabilitations');
+Route::get('/physiotherapy', [HomeController::class, 'physiotherapy'])->name('physiotherapy');
 
