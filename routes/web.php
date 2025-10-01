@@ -13,4 +13,5 @@ Route::get('/doctor', [HomeController::class, 'doctor'])->name('doctor');
 Route::get('/doctor-details', [HomeController::class, 'doctorDetails'])->name('doctor-details');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route ::get('/appointment', [HomeController::class, 'appointment'])->name('appointment');
+Route::get('/department', [HomeController::class, 'department'])->name('department');
 

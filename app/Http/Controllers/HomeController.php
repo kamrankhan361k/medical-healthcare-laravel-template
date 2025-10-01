@@ -49,5 +49,9 @@ class HomeController extends Controller
     {
         return view('appointment');
     }
+    public function department()
+    {
+        return view('department');
+    }
 
 }
