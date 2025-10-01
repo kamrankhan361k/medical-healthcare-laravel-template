@@ -41,5 +41,9 @@ class HomeController extends Controller
     {
         return view('doctor-details');
     }
+    public function About()
+    {
+        return view('about');
+    }
 
 }

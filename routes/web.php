@@ -11,4 +11,5 @@ Route::get('/physiotherapy', [HomeController::class, 'physiotherapy'])->name('ph
 Route::get('/psychology', [HomeController::class, 'psychology'])->name('psychology');
 Route::get('/doctor', [HomeController::class, 'doctor'])->name('doctor');
 Route::get('/doctor-details', [HomeController::class, 'doctorDetails'])->name('doctor-details');
+Route::get('/about', [HomeController::class, 'About'])->name('about');
 
