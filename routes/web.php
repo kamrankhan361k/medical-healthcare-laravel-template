@@ -9,4 +9,5 @@ Route::get('/eye-care', [HomeController::class, 'eyecare'])->name('eye-care');
 Route::get('/rehabilitations', [HomeController::class, 'rehabilitations'])->name('rehabilitations');
 Route::get('/physiotherapy', [HomeController::class, 'physiotherapy'])->name('physiotherapy');
 Route::get('/psychology', [HomeController::class, 'psychology'])->name('psychology');
+Route::get('/doctor', [HomeController::class, 'doctor'])->name('doctor');
 

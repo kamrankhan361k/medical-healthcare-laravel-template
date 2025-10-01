@@ -33,6 +33,10 @@ class HomeController extends Controller
     {
         return view('psychology');
     }
+    public function doctor()
+    {
+        return view('doctor');
+    }
 
 
 }
