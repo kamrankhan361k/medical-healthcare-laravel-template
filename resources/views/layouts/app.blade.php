@@ -1,6 +1,6 @@
-@include('includes.header')
+@include('layouts.header')
 
 <!-- Main Content Section -->
 @yield('content')
 
-@include('includes.footer')
+@include('layouts.footer')
