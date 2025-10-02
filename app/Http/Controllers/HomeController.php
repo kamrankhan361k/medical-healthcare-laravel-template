@@ -53,5 +53,10 @@ class HomeController extends Controller
     {
         return view('department');
     }
+    public function DepartmentDetails()
+    {
+        return view('department-details');
+    }
+
 
 }

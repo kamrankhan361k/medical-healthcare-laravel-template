@@ -14,7 +14,7 @@ Route::get('/doctor-details', [HomeController::class, 'doctorDetails'])->name('d
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route ::get('/appointment', [HomeController::class, 'appointment'])->name('appointment');
 Route::get('/department', [HomeController::class, 'department'])->name('department');
-Route::get('/department-details', [HomeController::class, 'department-details'])->name('department-details');
+Route::get('/department-details', [HomeController::class, 'DepartmentDetails'])->name('department-details');
 Route::get('/case-studies', [HomeController::class, 'CaseStudies'])->name('case-studies');
 Route::get('/case-studies-details', [HomeController::class, 'CaseStudiesDetails'])->name('case-studies-details');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
