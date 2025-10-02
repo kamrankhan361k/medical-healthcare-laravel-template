@@ -57,6 +57,77 @@ class HomeController extends Controller
     {
         return view('department-details');
     }
-
+   public function CaseStudies()
+    {
+        return view('case-studies');
+    }
+    public function CaseStudiesDetails()
+    {
+        return view('case-studies-details');
+    }
+    public function services()
+    {
+        return view('services');
+    }
+    public function elements()
+    {
+        return view('elements');
+    }
+    public function ServiceDetails()
+    {
+        return view('service-details');
+    }
+    public function PricingPlan()
+    {
+        return view('pricing-plan');
+    }
+    public function Gallery()
+    {
+        return view('gallery');
+    }
+    public function WorkingProcess()
+    {
+        return view('working-process');
+    }
+    public function BeforeAfter()
+    {
+        return view('before-after');
+    }
+     public function products()
+    {
+        return view('products');
+    }
+     public function shop()
+    {
+        return view('shop');
+    }
+     public function ShopDetails()
+    {
+        return view('shop-details');
+    }
+     public function cart()
+    {
+        return view('cart');
+    }
+     public function checkout()
+    {
+        return view('checkout');
+    }
+     public function blog()
+    {
+        return view('blog');
+    }
+     public function BlogWithSidebar()
+    {
+        return view('blog-with-sidebar');
+    }
+     public function Blogdetails()
+    {
+        return view('blog-details');
+    }
+     public function contact()
+    {
+        return view('contact');
+    }
 
 }
