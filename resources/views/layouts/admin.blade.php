@@ -27,7 +27,7 @@
     <link href="{{ asset('assets/css/lib/menubar/sidebar.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/lib/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/lib/unix.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style2.css') }}" rel="stylesheet">
 
     @stack('styles')
 </head>
