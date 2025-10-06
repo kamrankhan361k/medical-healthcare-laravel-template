@@ -48,12 +48,12 @@ Route::group([
         Route::get('/student-details', 'studentDetails')->name('student-details');
         Route::get('/all-student-table', 'allStudentTable')->name('all-student-table');
         Route::get('/student-search', 'studentSearch')->name('student-search');
-        
+
         // Teacher Routes
         Route::get('/teacher-information', 'teacherInformation')->name('teacher-information');
         Route::get('/teacher-details', 'teacherDetails')->name('teacher-details');
         Route::get('/all-teacher-table', 'allTeacherTable')->name('all-teacher-table');
-        
+
         // Academic Routes
         Route::get('/class-information', 'classInformation')->name('class-information');
         Route::get('/subject', 'subject')->name('subject');
@@ -61,14 +61,14 @@ Route::group([
         Route::get('/attendance-sheet', 'attendanceSheet')->name('attendance-sheet');
         Route::get('/grade-list', 'gradeList')->name('grade-list');
         Route::get('/new-exam', 'newExam')->name('new-exam');
-        
+
         // Financial Routes
         Route::get('/account-setting', 'accountSetting')->name('account-setting');
         Route::get('/student-fees-collection', 'studentFeesCollection')->name('student-fees-collection');
         Route::get('/payment-information', 'paymentInformation')->name('payment-information');
         Route::get('/add-new-expenses', 'addNewExpenses')->name('add-new-expenses');
         Route::get('/all-expense-list', 'allExpenseList')->name('all-expense-list');
-        
+
         // Other School Routes
         Route::get('/hostel-room', 'hostelRoom')->name('hostel-room');
         Route::get('/book-information', 'bookInformation')->name('book-information');
