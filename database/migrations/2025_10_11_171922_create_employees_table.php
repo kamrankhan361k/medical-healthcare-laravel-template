@@ -13,6 +13,17 @@ return new class extends Migration
     {
         Schema::create('employees', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
+            $table->foreignId('department_id')->nullable()->constrained('departments')->onDelete('set null');
+            $table->foreignId('designation_id')->nullable()->constrained('designations')->onDelete('set null');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->date('date_of_birth')->nullable();
+            $table->date('joining_date')->nullable();
+            $table->enum('status', ['active', 'inactive', 'terminated'])->default('active');
+            $table->string('cnic')->nullable();
+            $table->string('gender')->nullable();
+            $table->string('photo')->nullable();
             $table->timestamps();
         });
     }
