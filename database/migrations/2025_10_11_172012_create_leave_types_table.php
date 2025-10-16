@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('leave_types', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->integer('max_days')->default(0);
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }
